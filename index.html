@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css4.css">
+<style>
+.box{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li{
+    float:left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a, .dropbtn
+  {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding: 25px 10px;
+text-decoration:none;
+
+  }
+  
+  li a:hover, .dropdown:hover, .dropbtn
+  {
+    background-color:#111;
+  }
+  
+  .dropdown
+  {
+    display:inline-block;
+    border:1px solid black;
+  }
+  
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    margin:0;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a
+  {
+    color:black;
+    text-decoration:none;
+    padding:12px 16px;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #0000FF}
+  
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+  .box1{
+    display: flex;
+  }
+  .box2{
+    height: 40px;
+    display: flex;
+  }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="box1">
+<img src="file:///Users/xiongyi/Desktop/%E5%BC%80%E5%8F%91%E9%83%A8%E8%80%83%E6%A0%B8%E6%9C%9F-%E6%88%90%E9%95%BF%E6%A1%A3%E6%A1%88/images/%E5%A4%A7%E4%BD%9C%E4%B8%9A/831638606365_.pic_hd.jpg" width="150" height="72">
+  <div class="dropdown">
+   <a href="#" class="dropbtn">游戏资料</a>
+   <div class="dropdown-content">
+    <a href="#" class="hidden">版本介绍</a>
+    <a href="#" class="hidden">游戏介绍</a>
+    <a href="#" class="hidden">游戏资料</a>
+   </div>
+  </div>
+  <div class="dropdown">
+   <a href="#" class="dropbtn">内容中心</a>
+   <div class="dropdown-content">
+    <a href="#" class="hidden">攻略中心</a>
+    <a href="#" class="hidden">英雄攻略</a>
+    <a href="#" class="hidden">视频中心</a>
+   </div>
+  </div>
+  <div class="dropdown">
+    <a href="#" class="dropbtn">赛事中心</a>
+    <div class="dropdown-content">
+      <a href="#" class="hidden">世界冠军杯</a>
+      <a href="#" class="hidden">KPL</a>
+      <a href="#" class="hidden">高校赛</a>
+    </div>
+  </div>
+   <div class="dropdown">
+   <a href="#" class="dropbtn">百态王者</a>
+   <div class="dropdown-content">
+    <a href="#" class="hidden">王者文化站</a>
+    <a href="#" class="hidden">荣耀·传承</a>
+    <a href="#"
+    class="hidden">星光殿堂</a>
+   </div>
+  </div>
+   <div class="dropdown">
+   <a href="#" class="dropbtn">社区互动</a>
+   <div class="dropdown-content">
+    <a href="#" class="hidden">手Q部落</a>
+    <a href="#" class="hidden">微信公众号</a>
+    <a href="#"
+    class="hidden">官方微博</a>
+   </div>
+  </div>
+   <div class="dropdown">
+   <a href="#" class="dropbtn">IP新游</a>
+   <div class="dropdown-content">
+    <a href="#" class="hidden">王者荣耀·世界</a>
+    <a href="#" class="hidden">代号·破晓</a>
+    <a href="#"
+    class="hidden">代号·启程</a>
+  </div>
+  </div>
+</div>
+<div class="box2">
+   <input type="text" placeholder="搜索.." name="search">
+   <button type="submit">提交</button>
+</div>
+</div>
+</body>
+</html>
